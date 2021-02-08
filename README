@@ -1,0 +1,16 @@
+
+Install and compile pigpio:
+
+cd ~work
+mkdir pigpio; cd pigpio
+wget https://github.com/joan2937/pigpio/archive/master.zip
+unzip master.zip
+cd pigpio-master
+make
+sudo make install
+
+
+Then build KOBSrelay:
+
+make
+make install
